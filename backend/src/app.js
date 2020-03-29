@@ -2,19 +2,22 @@ const express = require('express'); //import module
 const routes = require('./routes');
 const cors = require('cors');
 
+const { errors } = require('celebrate');
+
 
 const app = express(); //instace appplication
 
 app.use(cors());
 app.use(express.json()); // antes de todas as requisições e converter para JS
 app.use(routes);
+app.use(errors());
 /**
 * Rota(recurso completo: endereço + recursos) e Recurso(chamado em todo sistema de backend):
 *   Rotas: endereço html -> localhost:3333
 *   Recursos: associado a uma tabela ou entidade do banco de dados, vem depois da barra /users 
 */
 
-/**
+/** API >>
  * Métodos HTTP (questao semantica, tendo em vista que tudo se resume a GET)
  *  GET: Buscar/listar informação do back-end
  *  POST: Criar uma informação no back-end
@@ -31,6 +34,6 @@ app.use(routes);
   */
 
 
-app.listen(3333);
+module.exports = app;
 
 
