@@ -7,7 +7,7 @@
 
 <a href="https://www.youtube.com/watch?v=3aEiM8QsFQQ">Mobile</a>
 
-<h1> Tecnologias utilizadas: </h1>
+<h1> Tecnologias utilizadas</h1>
 <ul>
   <li>HTML</li>
   <li>CSS</li>
@@ -38,7 +38,7 @@
 </ul>
 
 
-<h1>Configurações e Dependências:</h1>
+<h1>Configurações e Dependências</h1>
 Tanto na pasta <strong>backend</strong>, <strong>frontend</strong> e <strong>mobile</strong>, existe um arquivo chamado package.json, onde contém todas as dependências necessárias nos campos <em>"dependencies"</em> e <em>"devDependencies"</em>(necessárias apenas na implementação, ferramentas de teste, monitoramento).
 
 ```
@@ -108,3 +108,8 @@ a página irá abrir com várias opções para rodar a aplicação, são elas:
 <h2>Via QR Code</h2>
 É necessário a instalação do aplicativo <strong>Expo</strong>, disponível tanto na <strong>Google Play Store</strong> como na <strong>App Store</strong>.
 
+
+<h1>Futuras Atualizações</h1>
+<ul>
+  <li>Modo noturno</li>
+</ul>
