@@ -75,6 +75,9 @@ onde serão realizados dois testes:
 
 >depois do teste realizado, é cortado a conexão com o banco, para que a ferramenta não continue executando sem necessidade.
 
+<h1>Teste de Rotas</h1>
+Caso queria testar as rotas/métodos http e seus retornos, basta executar o servidor(mostrado no tópico abaixo) e abrir a ferramenta de teste, como o <a href="https://insomnia.rest/"> Insomnia</a>(utilizando durante o desenvolvimento).
+
 
 <h1>Inicializando o Back-end</h1>
 Basta utilizar o comando:
@@ -85,11 +88,9 @@ npm start
 
 para executar o servidor.
 
-<h1>Teste de Rotas</h1>
-Caso queria testar as rotas/métodos http e seus retornos, basta executar o servidor e abrir a ferramenta de teste, como o <a href="https://insomnia.rest/"> Insomnia</a>.
 
 <h1>Inicializando o Front-end/Mobile</h1>
-Com o back-end inicializado, basta ir no terminal aberto no diretório do <strong>frontend</strong>/<strong>mobile</strong> e executar:
+Com o <strong>back-end</strong> inicializado, basta ir no terminal aberto no diretório do <strong>frontend</strong>/<strong>mobile</strong> e executar:
 
 ```
 npm start
