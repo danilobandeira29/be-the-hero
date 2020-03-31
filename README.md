@@ -106,5 +106,5 @@ a página irá abrir com várias opções para rodar a aplicação, são elas:
   <li>Via QR Code*</li>
 </ul>
 <h2>Via QR Code</h2>
-É necessário a instalação do aplicativo <strong>Expo</strong>, disponível tanto na Google Play Store como na App Store.
+É necessário a instalação do aplicativo <strong>Expo</strong>, disponível tanto na <strong>Google Play Store</strong> como na <strong>App Store</strong>.
 
