@@ -88,7 +88,6 @@ para executar o servidor.
 <h1>Teste de Rotas</h1>
 Caso queria testar as rotas/métodos http e seus retornos, basta executar o servidor e abrir a ferramenta de teste, como o <a href="https://insomnia.rest/"> Insomnia</a>.
 
-
 <h1>Inicializando o Front-end/Mobile</h1>
 Com o back-end inicializado, basta ir no terminal aberto no diretório do <strong>frontend</strong>/<strong>mobile</strong> e executar:
 
