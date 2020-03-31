@@ -16,6 +16,7 @@ Front-end utilizado para cadastramento de ONGS, com a criação de ID de acesso 
     <ul>
       <li>Express</li>
       <li>SQLite</li>
+      <li>Crypto</li>
       <li>Knex</li>
       <li>Insomnia</li>
       <li>Celebrate</li>
@@ -57,26 +58,52 @@ Tanto na pasta <strong>backend</strong>, <strong>frontend</strong> e <strong>mob
 ```
 
 <h1>Teste</h1>
-Com o terminal aberto no diretório do Back-end, basta utilizar o comando:
+Com o terminal aberto no diretório do <strong>backend</strong>, basta utilizar o comando:
 
 ```
 npm test
 ```
 onde serão realizados dois testes:
 <ul>
-<li>Unitário</li>
-para ter o retorno se a ID gerada pela função <em>generateUniqueId</em> localizada em <em>backend/src/utils/generateUniqueId.js</em> está de acordo com as regras de negócio estabelicidas.
+  <li><strong>Unitário</strong> - para ter o retorno se a ID gerada pela função <em>generateUniqueId</em> localizada em <em>backend/src/utils/generateUniqueId.js</em> está de acordo com as regras de negócio estabelicidas.</li>
 
-<li>Integrado</li>
-tentará gerar um tabela no banco de dados de teste, onde será criado uma tabela para cadastro de ongs que se faz necessário alguns atributos e irá retornar uma ID da ong cadastrada.
+
+<li><strong>Integrado</strong> - tentará gerar um tabela no banco de dados de teste, onde será criado uma tabela para cadastro de ongs que se faz necessário alguns atributos e irá retornar uma ID da ong cadastrada.</li>
+
 
 >no teste, antes da tentativa de inserção de uma nova ong, ocorre um rollback para, caso já tenha sido executado um teste anteriormente, ele desfazer a tabela e assim criar outra. Dessa forma, irá evitar que o banco de dados de teste fique grande sem necessidade.
 
 >depois do teste realizado, é cortado a conexão com o banco, para que a ferramenta não continue executando sem necessidade.
 
 
-<h1>Atualizando...</h1>
+<h1>Inicializando o Back-end</h1>
+Basta utilizar o comando:
+
+```
+npm start
+```
+
+para executar o servidor.
+
+<h1>Teste de Rotas</h1>
+Caso queria testar as rotas/métodos http e seus retornos, basta executar o servidor e abrir a ferramenta de teste, como o <a href="https://insomnia.rest/"> Insomnia</a>.
 
 
+<h1>Inicializando o Front-end/Mobile</h1>
+Com o back-end inicializado, basta ir no terminal aberto no diretório do <strong>frontend</strong>/<strong>mobile</strong> e executar:
 
+```
+npm start
+```
+e o seu navegador padrão irá abrir uma página com a aplicação.
+
+<h2>No Caso da inicialização do Mobile,</h2>
+a página irá abrir com várias opções para rodar a aplicação, são elas:
+<ul>
+  <li>Executar no Android via cabo/emulador</li>
+  <li>Executar no iOS via emulador</li>
+  <li>Executar em página web</li>
+  <li>Via QR Code*</li>
+</ul>
+<h2>Via QR Code</h2> É necessário a instalação do aplicativo Expo, disponível tanto na Google Play Store como na App Store.
 
