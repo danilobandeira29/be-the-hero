@@ -68,8 +68,8 @@ onde serão realizados dois testes:
   <li><strong>Unitário</strong> - para ter o retorno se a ID gerada pela função <em>generateUniqueId</em> localizada em <em>backend/src/utils/generateUniqueId.js</em> está de acordo com as regras de negócio estabelicidas.</li>
 
 
-<li><strong>Integrado</strong> - tentará gerar um tabela no banco de dados de teste, onde será criado uma tabela para cadastro de ongs que se faz necessário alguns atributos e irá retornar uma ID da ong cadastrada.</li>
-
+  <li><strong>Integrado</strong> - tentará gerar um tabela no banco de dados de teste, onde será criado uma tabela para cadastro de ongs que se faz necessário alguns atributos e irá retornar uma ID da ong cadastrada.</li>
+</ul>
 
 >no teste, antes da tentativa de inserção de uma nova ong, ocorre um rollback para, caso já tenha sido executado um teste anteriormente, ele desfazer a tabela e assim criar outra. Dessa forma, irá evitar que o banco de dados de teste fique grande sem necessidade.
 
