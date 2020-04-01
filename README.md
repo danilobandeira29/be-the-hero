@@ -1,6 +1,6 @@
 <h1> Be The Hero </h1>
 <h4>Projeto realizado com a participação da Semana Omnistack 11, com certificação de 92% de aproveitamento. </h4>
-<strong>Front-end</strong> utilizado para cadastramento de ONGS, com a criação de ID de acesso para cadastramento de casos. Esses dados serão armezanados no <strong>Back-end</strong>, que por sua vez poderão ser visualizados pelo usuário <strong>Mobile</strong>. O usuário <strong>Mobile</strong>, caso se interesse e queria ajudar, poderá entrar em contato com a ONG via Email/Whatsapp, tal como pode ser observado nos links abaixo:
+<strong>Front-end</strong> utilizado para cadastramento de ONGS, com a criação de ID de acesso para cadastramento de casos. Esses dados serão armazenados no <strong>Back-end</strong>, que por sua vez poderão ser visualizados pelo usuário <strong>Mobile</strong>. O usuário <strong>Mobile</strong>, caso se interesse e queria ajudar, poderá entrar em contato com a ONG via Email/Whatsapp, tal como pode ser observado nos links abaixo:
 
 <h2>Links</h2>
 <a href="https://www.youtube.com/watch?v=VxyL6S9u4dU">Front-end</a>
